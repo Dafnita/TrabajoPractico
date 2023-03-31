@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+/* Scroll*/
+body::-webkit-scrollbar {
+    width: 7px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: #414141;
+}
+
+.contenedor{
+    height: 100vh;
+    background-image: url("../img/loby-.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw;
+} 
+
+.navegador{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 5vw;
+    position:fixed;
+    top:0px;
+    height: 15vh;
+    width: 100vw;
+    background: linear-gradient(90deg, rgba(244,244,244,0.9556197478991597) 0%, rgba(126,126,126,0.9472163865546218) 50%, rgba(244,244,244,1) 100%);
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+}
+
+.logo{
+    width: 25vw;
+    padding-left: 3vh;
+}
+.secciones{
+    margin-right: 5vh;
+}
+
+ul{
+    display: flex;
+    gap: 8vh;
+}
+
+li{
+    list-style: none;
+    font-size: 2.5vh;
+}
+
+nav a{
+    text-decoration: none;
+    color: #414141;
+}
+nav a:hover{
+    color: white;
+    text-decoration: overline;
+}
+
+.slogan{
+    padding-left: 10vw;
+    font-weight: 700;
+    font-size: 10vh;
+    color: white;
+    height: 30vh;
+}
+span{
+    display:flex;
+    padding-top: 30vh;
+}
+
+.bloque2{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10vh;
+}
+
+.separacion{
+    height: 5vh;
+    background-color: #414141;
+}
+.servicios{
+    display: flex;
+    flex-direction: column;
+    padding-left: 5vw;
+    align-items: center;
+    font-size: 20px;
+    color: rgb(88, 88, 88);
+}
+
+.imagenes{
+    padding-left: 1vw;
+    gap: 2vw;
+}
+.galeria, .nosotros, .contacto{
+    margin-bottom: 10vh;
+}
+.galeria img{
+    width: 24vw;
+    height: 30vh;
+}
+
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:0vh 25vw;
+    font-size: large;
+    text-align:justify;
+    padding-top: 5vh;
+}
+
+h2{
+    text-align: center;
+    font-size: 40px;
+    color: rgb(88, 88, 88);
+    padding-top: 15vh;
+    padding-bottom: 2vh;
+}
+
+
+form {
+    background-color: #414141;
+    color: #fff;
+    padding: 20px;
+    max-width: 520px;
+    margin: 10px auto;
+    box-shadow: 0px 0px 10px #414141;
+    border-radius: 10px;
+}
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+input[type="text"], input[type="email"], input[type="tel"], textarea {
+    background-color: #fff;
+    border: none;
+    color: #414141;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    width: 500px;
+}
+input[type="submit"] {
+    background-color: #fff;
+    border: none;
+    color: #414141;
+    cursor: pointer;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+input[type="submit"]:hover {
+    background-color: #277778;
+    color: #fff;
+}
+.redesSociales img{
+    height: 3vw;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: #d4d4d4;
+    border: 1px solid #414141;
+    color:white;
+}
+
+
