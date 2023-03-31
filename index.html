@@ -11,7 +11,7 @@
     <header>
         <div class="navegador">
             <a  href="index.html"><img src="./img/Logo.png" alt="logo" class="logo"></a>
-            <nav class="secciones">
+            <nav>
                 <ul>
                     <li><a href="#servicios">Servicios</a></li>
                     <li><a href="#galeria">Galería</a></li>
@@ -19,18 +19,23 @@
                     <li><a href="#contacto">Contacto</a></li>
                 </ul>
             </nav>
+            <button class="btn-menu menu-icon">
+                <i class="bi bi-list"></i>
+            </button>
         </div>
-        <div class="contenedor" >
+        <div class="contenedor">
+            <div class="fondo">
+                <img src="./img/loby-.jpg">
+            </div>
             <div class="slogan">
                 <span>Tú Hogar lejos de casa</span>
             </div>
-        </div>
-        
+        </div>     
     </header>
     <main>
-        <section class="bloque2" id="servicios">
+        <section class="servicios" id="servicios">
             <h2>Servicios</h2>
-            <div class="servicios">
+            <div class="serviciosTodos">
                 <p>Como filosofía de nuestros servicios establecemos la mejora continua, por lo cual, 
                     <br>esta es una breve descripción de los mismos:</p>
                     <br>
@@ -62,18 +67,14 @@
         <section class="galeria" id="galeria">
             <h2>Galería</h2>
             <div class="imagenes">
-                <div class="linea1">
                     <img src="./img/pexels-chris-goodwin-32870.jpg">
                     <img src="./img/pexels-pixabay-164595.jpg">
                     <img src="./img/pexels-engin-akyurt-1579253.jpg">
                     <img src="./img/pexels-jonathan-borba-3316922.jpg">
-                </div>
-                <div class="linea2">
                     <img src="./img/pexels-max-rahubovskiy-8082549.jpg">
                     <img src="./img/pexels-quang-nguyen-vinh-14012238.jpg">
                     <img src="./img/pexels-engin-akyurt-2771927.jpg">
                     <img src="./img/pexels-matheus-bertelli-13871291.jpg">
-                </div>
             </div>
         </section>
         <div class="separacion"></div>
@@ -113,8 +114,8 @@
     </main>
     <footer>
         <div class="redesSociales">
-            <img src="./img/instagram_121064.png" url="https://www.instagram.com/">
-            <img src="./img/fb_icon-icons.com_65434.png" url="https://www.facebook.com/">
+            <a href="https://www.instagram.com/"><i class="bi bi-instagram iconI"></i></a>
+            <a href="https://www.facebook.com/"><i class="bi bi-facebook iconF"></i></a>
         </div>
     </footer>
     <script src="./js/script.js"></script>
